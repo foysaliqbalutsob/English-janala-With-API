@@ -130,7 +130,7 @@ const displayLevelWord = (words) => {
     const card = document.createElement("div");
     card.innerHTML = `
      <div
-        class="bg-white rounded-xl shadow-sm text-center py-10 px-5 space-y-4"
+        class="bg-white rounded-xl shadow-sm text-center mb-4 py-10 px-5 space-y-4"
       >
         <h2 class="font-bold text-2xl">${
           word.word ? word.word : "শব্দ পাওয়া যায়নি"
